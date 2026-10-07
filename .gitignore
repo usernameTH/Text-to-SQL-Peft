@@ -1,0 +1,19 @@
+# Data & large artifacts
+data/spider/
+experiments/finetuning/checkpoints/
+**/results/*.json
+**/results/*.csv
+!**/results/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+

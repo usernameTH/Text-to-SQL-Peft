@@ -1,0 +1,22 @@
+# Global configuration shared across experiments.
+
+seed: 42
+device: cuda   # cuda | cpu
+
+paths:
+  spider_root: data/spider
+  train_json: data/spider/train_spider.json
+  dev_json: data/spider/dev.json
+  tables_json: data/spider/tables.json
+  database_dir: data/spider/database
+
+models:
+  slm: Qwen/Qwen2.5-Coder-3B-Instruct
+
+prompt:
+  schema_style: simple_ddl
+  include_keys: true
+
+generation:
+  max_new_tokens: 256
+  temperature: 0.0

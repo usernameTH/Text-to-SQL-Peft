@@ -1,0 +1,22 @@
+# Core
+torch>=2.2
+transformers>=4.44
+datasets>=2.20
+accelerate>=0.33
+
+# Fine-tuning (LoRA/QLoRA)
+peft>=0.12
+trl>=0.9
+bitsandbytes>=0.43
+
+
+# Evaluation / stats
+numpy>=1.26
+scipy>=1.13
+statsmodels>=0.14
+
+# Utilities
+pyyaml>=6.0
+tqdm>=4.66
+pandas>=2.2
+matplotlib>=3.9
